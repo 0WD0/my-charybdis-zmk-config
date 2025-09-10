@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 // 自定义鼠标移动速度 (默认是 600)
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200
 
 &lt {
@@ -89,11 +90,11 @@
 
         snipe-layers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans       &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans       &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans       &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans       &trans     &trans     &trans  &trans  &trans  &trans
-                        &trans  &trans     &trans       &trans     &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &trans  &trans     &trans     &trans  &trans  &trans
+                        &trans  &trans     &trans       &trans  &trans
                                 &mkp LCLK  &mkp RCLK    &trans
             >;
         };
