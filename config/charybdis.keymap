@@ -4,6 +4,9 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
+// 自定义鼠标移动速度 (默认是 600)
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200
+
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
