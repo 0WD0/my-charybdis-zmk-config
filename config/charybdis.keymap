@@ -6,7 +6,7 @@
 
 // 自定义鼠标移动速度 (默认是 600)
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 2000
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 3000
 
 &lt {
     tapping-term-ms = <200>;
