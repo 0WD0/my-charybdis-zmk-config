@@ -105,7 +105,7 @@
 &kp PAGE_UP    &kp GRAVE        &kp N7  &kp N8  &kp N9  &kp HASH       &trans                &trans                 &trans            &trans             &trans        &trans
 &kp PAGE_DOWN  &kp EXCLAMATION  &kp N4  &kp N5  &kp N6  &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS         &kp EQUAL          &kp ASTERISK  &trans
 &kp HOME       &kp AT_SIGN      &kp N1  &kp N2  &kp N3  &kp PERCENT    &kp CARET             &kp AMPERSAND          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans
-                                        &trans  &trans  &trans         &trans                &trans
+                                        &trans  &trans  &kp N0         &trans                &trans
                                                 &trans  &trans         &trans
             >;
         };
