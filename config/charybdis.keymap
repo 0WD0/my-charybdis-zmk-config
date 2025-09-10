@@ -61,7 +61,7 @@
 &trans  &none   &none   &none   &none   &trans        &none           &none           &none         &msc SCRL_UP     &kp MINUS         &kp EQUAL
 &trans  &none   &none   &none   &none   &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans  &trans  &trans  &trans  &trans  &none         &msc SCRL_DOWN  &none           &trans        &trans           &none             &trans
-                        &trans  &trans  &To0_macro    &mkp LCLK       &mkp RCLK
+                        &trans  &trans  &To0_macro    &mkp RCLK       &mkp LCLK
                                 &trans  &trans        &trans
             >;
         };
