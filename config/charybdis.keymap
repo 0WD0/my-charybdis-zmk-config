@@ -6,6 +6,7 @@
 
 // 自定义鼠标移动速度 (默认是 600)
 
+#undef ZMK_POINTING_DEFAULT_MOVE_VAL
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 3000
 
 &lt {
@@ -17,7 +18,6 @@
     behaviors {
         lt_space: layer_tap_space {
             compatible = "zmk,behavior-hold-tap";
-            label = "LT_SPACE";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "balanced";
@@ -30,21 +30,18 @@
     macros {
         To1_macro: To1_macro {
             compatible = "zmk,behavior-macro";
-            label = "To1_macro";
             #binding-cells = <0>;
             bindings = <&rgb_ug RGB_EFF &rgb_ug RGB_COLOR_HSB(128,100,50) &to 1>;
         };
 
         To0_macro: To0_macro {
             compatible = "zmk,behavior-macro";
-            label = "To0_macro";
             #binding-cells = <0>;
             bindings = <&rgb_ug RGB_EFR &to 0>;
         };
 
         To2_macro: To2_macro {
             compatible = "zmk,behavior-macro";
-            label = "To2_macro";
             #binding-cells = <0>;
             bindings =
                 <&to 2>,
