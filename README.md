@@ -12,16 +12,10 @@ weekin 的模板自带 build 工作流，每次 commit 之后只需要下载它�
 
 ![](assets/qwerty-layer.png)
 
+![](assets/keyboard-mouse-layer.png)
 
-![](assets/keyboard-mouse-layout.png)
-
-第二层是蓝牙层
-
-第三层是轨迹球的 scroll layer 
-
-都没有进行改动
+![](assets/BT-layer.png)
 
 ![](assets/snipe-layer.png)
-
 
 ![](assets/space-layer.png)
